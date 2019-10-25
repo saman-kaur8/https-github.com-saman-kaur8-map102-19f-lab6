@@ -16,6 +16,7 @@ class ItemsViewController: UITableViewController {
         return itemStore.allItems.count
     }
     
+    
     override func tableView(_ tableView: UITableView,
                             cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // Get a new or recycled cell
